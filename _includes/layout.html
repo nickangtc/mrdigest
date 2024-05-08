@@ -5,32 +5,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mr Digest</title>
-
-  <style>
-    nav {
-      display: flex;
-      align-items: center;
-    }
-
-    header {
-      font-size: 2rem;
-    }
-
-    .logo {
-      max-width: 60px;
-    }
-  </style>
 </head>
 
 <body>
   <nav>
-    <img class="logo" src="/assets/img/logo.png" alt="logo is a chocolate bar">
-    <header>Mr Digest</header>
+    <a href="/">
+      <img class="logo" src="/assets/img/logo.png" alt="logo is a chocolate bar">
+    </a>
+    <a href="/">
+      <header>Mr Digest</header>
+    </a>
   </nav>
 
-  <h1>{{ title | default: "Mr Digest" }}</h1>
+  <h1>{{ title }}</h1>
+  <time>{{ date_published }}</time>
 
   <article>{{ content }}</article>
 </body>
+
+<style>
+  :root {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 0.5rem 2rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav>a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  header {
+    font-size: 2rem;
+  }
+
+  time {
+    color: gray;
+  }
+
+  .logo {
+    max-width: 60px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    :root {
+      font-size: 20px;
+    }
+
+    body {
+      padding: 0.5rem;
+    }
+  }
+</style>
 
 </html>

@@ -8,8 +8,71 @@
 </head>
 
 <body>
-  <h1>Welcome.</h1>
-  <p>Everything is digestible here.</p>
+  <nav>
+    <a href="/">
+      <img class="logo" src="/assets/img/logo.png" alt="logo is a chocolate bar">
+    </a>
+    <a href="/">
+      <header>Mr Digest</header>
+    </a>
+  </nav>
+
+  <h1></h1>
+  <time></time>
+
+  <article>
+
+<ul>
+  <li>
+    <a href="/posts/why/">
+      Why Mr Digest exists
+    </a>
+  </li>
+</ul>
+
+</article>
 </body>
+
+<style>
+  :root {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 0.5rem 2rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav>a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  header {
+    font-size: 2rem;
+  }
+
+  time {
+    color: gray;
+  }
+
+  .logo {
+    max-width: 60px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    :root {
+      font-size: 20px;
+    }
+
+    body {
+      padding: 0.5rem;
+    }
+  }
+</style>
 
 </html>
