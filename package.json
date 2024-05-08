@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "name": "mrdigest",
+  "description": "One day I had the idea to lean into my inclination to make things digestible. Someone doesn't seem to understand something that I understood, so I write in a way that compels them to read, and in a manner that helps them understand it.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "serve": "rm -rf ./_site && eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
