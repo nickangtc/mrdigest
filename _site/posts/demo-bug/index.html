@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr Digest</title>
+</head>
+
+<body>
+  <nav>
+    <a href="/">
+      <img class="logo" src="/assets/img/logo.png" alt="logo is a chocolate bar">
+    </a>
+    <a href="/">
+      <header>Mr Digest</header>
+    </a>
+  </nav>
+
+  <h1>Fix this bug before demos</h1>
+  <time></time>
+
+  <article><p>Tell me if this sounds familiar.</p>
+<p>You work at a company that holds an all-hands meetings once every week. It's the digital equivalent of a town hall gathering. Everyone comes to update and be updated about the latest happenings, company-wide.</p>
+<p>A software engineer takes the air waves and shares his screen. He is about to demo the newest integration with one of your partners. You've been waiting for this.</p>
+<p>He begins to talk. But... you can't see shit. Everything appears comically tiny on your screen.</p>
+<p>You slide your mouse to the <em>raise hand</em> button and prepare to say, politely, &quot;could you zoom in a bit, please?&quot; But you stop yourself a moment later, when you find out that you're actually watching a recording.</p>
+<p>People tend to fumble during live presentations (<em>Vorführeffekt</em> or &quot;demonstration effect&quot;), so many understandably prefer to record. If it's a walkthrough, it's probably wise to record because then you can restart until you make the perfect glitch-free presentation.</p>
+<p><strong>The problem is that engineers don't consider small font sizes a glitch. It's a feature to them, not a bug.</strong> Most software engineers I know don't even make the conscious decision to switch from coding mode to presentation mode.</p>
+<p>The result is unfortunately a small tragedy. The presentation lacks luster and the hardworking folks behind the integration don't get the recognition they deserve, because it really doesn't look that impressive.</p>
+<p>I'm guilty of this too, both of being an engineer and being one who forgets to zoom in.</p>
+<p>As a small tangent, I've found it helpful to do more external-facing documentation work. With those, I'll always be reminded by someone (e.g. Marketing) to zoom the f* in so people can see exactly what I'm trying to show.</p>
+<p>The long term fix is probably adopting the crucial mindset of the presenter, which is to say, think about your audience and present accordingly for them.</p>
+</article>
+</body>
+
+<style>
+  :root {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 0.5rem 2rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav>a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  header {
+    font-size: 2rem;
+  }
+
+  time {
+    color: gray;
+  }
+
+  .logo {
+    max-width: 60px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    :root {
+      font-size: 20px;
+    }
+
+    body {
+      padding: 0.5rem;
+    }
+  }
+</style>
+
+</html>
