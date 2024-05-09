@@ -1,6 +1,6 @@
 ---
-# title: "One thing every engineer forgets to do before presenting"
-title: "Fix this bug before demos"
+# title: "Fix this bug before demos"
+title: "This is the most common demo bug"
 date: 2024-05-09
 ---
 
