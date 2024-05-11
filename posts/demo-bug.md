@@ -4,10 +4,6 @@ title: "This is the most common demo bug"
 date: 2024-05-09
 ---
 
-Tell me if this sounds familiar.
-
-You work at a company that holds an all-hands meetings once every week. It's the digital equivalent of a town hall gathering. Everyone comes to update and be updated about the latest happenings, company-wide.
-
 A software engineer takes the air waves and shares his screen. He is about to demo the newest integration with one of your partners. You've been waiting for this.
 
 He begins to talk. But... you can't see shit. Everything appears comically tiny on your screen.
