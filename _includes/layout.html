@@ -18,7 +18,7 @@
   </nav>
 
   <h1>{{ title }}</h1>
-  <time>{{ date_published }}</time>
+  <time>{{ published_at | date: "%d %b, %Y" }}</time>
 
   <article>{{ content }}</article>
 </body>
@@ -48,6 +48,10 @@
 
   time {
     color: gray;
+  }
+
+  img {
+    max-width: 100%;
   }
 
   .logo {

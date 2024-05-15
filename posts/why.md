@@ -1,6 +1,6 @@
 ---
 title: "Why Mr Digest exists"
-date_published: "2024-05-08"
+published_at: 2024-05-08
 ---
 
 Mr Digest is so named because I realised how much I tell coworkers and managers that one of my strengths is explaining things plainly to different audiences. In other words, I make things digestible. You might say I'm "Mr Digest."

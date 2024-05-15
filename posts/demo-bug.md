@@ -1,7 +1,7 @@
 ---
 # title: "Fix this bug before demos"
 title: "This is the most common demo bug"
-date: 2024-05-09
+published_at: 2024-05-09
 ---
 
 A software engineer takes the air waves and shares his screen. He is about to demo the newest integration with one of your partners. You've been waiting for this.
